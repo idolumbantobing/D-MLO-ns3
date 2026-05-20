@@ -37,6 +37,14 @@ TAGS
 .lock-ns3_*
 .ns3rc
 
+
+!scratch/*/*.txt
+scratch/nested-subdir/CMakeLists.txt
+
+# Ignore graph exports from experiments
+Graphs/wifi7-roaming/*
+Graphs/wifi8-roaming/*
+
 build-dir/
 build/
 /.cproject
