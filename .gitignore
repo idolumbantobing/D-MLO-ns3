@@ -64,6 +64,8 @@ scratch/Results_Complete/mlo7/result-logs/
 
 scratch/Results_Complete/Graphs/roaming-combined-5-data/
 
+scratch/Results_Complete/old/
+
 .gitlab-ci-local/
 .idea/
 cmake-cache/
