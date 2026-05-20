@@ -44,28 +44,6 @@ build/
 
 version.cache
 
-scratch/Graphs/wifi7-roaming/
-scratch/Graphs/wifi8-roaming/
-
-scratch/Results_Complete/dmlo_mode1/assoc-rxpower-logs/
-scratch/Results_Complete/dmlo_mode1/result-logs/
-
-scratch/Results_Complete/dmlo_mode2/assoc-rxpower-logs/
-scratch/Results_Complete/dmlo_mode2/result-logs/
-
-scratch/Results_Complete/dmlo_mode3/assoc-rxpower-logs/
-scratch/Results_Complete/dmlo_mode3/result-logs/
-
-scratch/Results_Complete/dmlo_mode4/assoc-rxpower-logs/
-scratch/Results_Complete/dmlo_mode4/result-logs/
-
-scratch/Results_Complete/mlo7/assoc-rxpower-logs/
-scratch/Results_Complete/mlo7/result-logs/
-
-scratch/Results_Complete/Graphs/roaming-combined-5-data/
-
-scratch/Results_Complete/old/
-
 .gitlab-ci-local/
 .idea/
 cmake-cache/
