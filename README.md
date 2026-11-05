@@ -53,7 +53,23 @@ If you use this module in your research, please cite the following:
 
 
 ```bibtex8
-
+@inproceedings{10.1145/3837358.3837374,
+author = {Keshtiarast, Navid and Lumbantobing, Ido M. and Renaldi, Oliver and Petrova, Marina},
+title = {An ns-3 Implementation and Evaluation of Wi-Fi Distributed Multi-Link Operation},
+year = {2026},
+isbn = {9798400727405},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3837358.3837374},
+doi = {10.1145/3837358.3837374},
+abstract = {Distributed multi-link operation (D-MLO) allows a client device to simultaneously connect to multiple, different Access Points (APs) and frequency bands. It is one of the key mechanisms being investigated for future Wi-Fi 8 networks to improve reliability, mobility support, and service continuity. However, studying its performance requires system-level simulator support that goes beyond conventional multi-link operation, where clients maintain multiple links with one AP-Multi Link Device (AP-MLD). In this paper, we present a D-MLO MAC-layer implementation in ns-3.43. To the best of our knowledge, this is the first ns-3 implementation of D-MLO for Wi-Fi networks. Our implementation enables a non-AP MLD STA to establish and maintain simultaneous links with multiple distributed APs, perform per-link association and roaming decisions, and apply different packet-mapping policies over the selected links. We implement four D-MLO modes that differ in link-selection strategy and packet handling, namely diversity-based and SNR-based link selection, each combined with either throughput aggregation or reliability-oriented packet duplication. The implementation extends the ns-3 Wi-Fi module with multi-AP association, per-link beacon monitoring, per-link reassociation, duplicate packet transmission, and duplicate filtering at the receiver. Our simulation results obtained in an indoor roaming scenario with different wall-loss values, demonstrate that D-MLO can be effectively configured for different service objectives. Throughput-oriented modes improve aggregate rate when strong links are available, while reliability-oriented modes improve packet delivery during roaming by maintaining multiple active links and masking link degradation through redundant transmissions. The results further show that seamless roaming can also be realized in a user-centric way by activating redundancy modes only during the roaming scenario.},
+booktitle = {Proceedings of the 2026 International Conference on Ns-3},
+pages = {126–132},
+numpages = {7},
+keywords = {ns-3, IEEE 802.11 bn, Wi-Fi 8, MAC},
+location = {Naples, Italy},
+series = {ICNS3 2026}
+}
 ```
 
 </details>
